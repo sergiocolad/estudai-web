@@ -7,7 +7,7 @@ import { FooterComponent } from "./shared/components/footer/footer.component";
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrls: ['./app.scss']
 })
 export class App {
   protected title = 'estudai-web';
